@@ -1,0 +1,2 @@
+# Methods are public by default in Ruby, so if you don't specify public or private, your methods will be public
+# private methods are just that: they're private to the object where they are defined. This means you can only call these methods from other code inside the object. Another way to say this is that the method cannot be called with an explicit receiver. You've been using receivers all along—these are the objects on which methods are called! Whenever you call object.method, object is the receiver of the method.
